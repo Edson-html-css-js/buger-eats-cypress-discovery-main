@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
 
-  ui-chrome-tests:
+  ci-edson-lucas-chrome-tests:
     runs-on: ubuntu-latest
     container:
       image: cypress/browsers:node14.17.0-chrome88-ff89
